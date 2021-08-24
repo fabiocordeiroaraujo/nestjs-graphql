@@ -7,12 +7,10 @@ WORKDIR /home/api
 # RUN NODE PROJECT
 CMD npm run start:docker:dev
 
-# BUILD DOCKER IMAGE #################
-# >> docker build -t nestjs_graphql .
 # SHOW DOCKER IMAGES #################
 # >> docker images
 # RUN DOCKER IMAGE ###################
-# docker run nestjs_graphql | docker-compose up
+# >> docker-compose up
 # >> docker-compose up --build
 # INSTALL DEPENDENCES
 # >> docker-compose exec nestjs_graphql_api npm install [package]

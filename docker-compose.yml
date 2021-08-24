@@ -13,7 +13,7 @@ services:
       DB_PORT: 5432
 
   database:
-    container_name: nest_graphql_db
+    container_name: nest_graphql_postgres
     image: postgres:13
     environment:
       POSTGRES_DB: ${DB_NAME}
